@@ -1,0 +1,64 @@
+.mySwiper img {
+    width: 100%;
+    height: 50vh;
+    filter: brightness(.5);
+}
+
+.mySwiper .swiper-slide {
+    position: relative;
+}
+
+.mySwiper .swiper-slide img {
+    object-fit: cover;
+}
+
+.mySwiper .mySwiperText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    gap: 10px
+}
+
+.mySwiper .mySwiperText h2, p {
+    padding: 0;
+    margin: 0;
+}
+
+.mySwiper .mySwiperText h2 {
+    font-size: 36px;
+    width: 30vw;
+}
+
+.mySwiper .mySwiperText p {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mySwiper button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.mySwiper button:hover {
+    background-color: white;
+    color: #2A4B7C;
+}
+
+.mySwiper button {
+    border: 2px solid white;
+}

@@ -1,0 +1,75 @@
+.personelCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background: #fff;
+}
+
+.personelCard>div:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+@media(min-width:972px) {
+    .personelCard {
+        position: fixed;
+        top: 15px;
+        width: 17.8vw;
+    }
+}
+
+@media(max-width:972px) {
+    .mySwiper .mySwiperText h2 {
+        font-size: 24px !important;
+        width: 60vw !important;
+    }
+
+    .blogCard {
+        padding: 0px !important;
+    }
+}
+
+.personelCard div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    gap: 5px;
+}
+
+.personelCard img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 10px solid #2A4B7C;
+}
+
+.personelCard h1 {
+    text-align: center;
+}
+
+.personelCard p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.personelCard i {
+    font-size: 18px;
+    border: 2px solid #2A4B7C;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.personelCard i:hover {
+    background-color: #2A4B7C;
+    color: white;
+}
+
+.personelCard div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}

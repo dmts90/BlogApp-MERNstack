@@ -1,0 +1,49 @@
+.blogCard {
+    padding: 40px;
+    position: static;
+}
+
+.blogCard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blogCard h2 {
+    position: relative;
+    background-color: white;
+}
+
+.blogCard p {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media(max-width:972px) {
+    .blogCard h2 {
+        left: 0;
+    }
+}
+
+.blogCard p {
+    font-size: 18px;
+}
+
+.blogCard button {
+    margin-top: 30px;
+    background-color: transparent;
+    color: #2A4B7C;
+    border: 1px solid #2A4B7C;
+    outline: 0;
+    padding: 5px 10px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.blogCard button:hover {
+    background-color: #2A4B7C;
+    color: white;
+}
